@@ -1,0 +1,38 @@
+name: quiz_statemanagement
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2  # Sesuaikan dengan versi yang lebih rendah
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Menambahkan custom fonts Poppins
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/Arial-Regular.ttf
+        - asset: assets/fonts/Arial-Bold.ttf
+
+
+  # Menambahkan assets jika diperlukan
+  assets:
+    - assets/fonts/
